@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function mostrarMensaje(event) {
+            event.preventDefault(); // Evita el envío del formulario
+            let nombre = document.getElementById("fname").value;
+            let apellido = document.getElementById("lname").value;
+
+            if (nombre.trim() === "" || apellido.trim() === "") {
+                alert("Por favor, ingresa tu nombre y apellido.");
+                return;
+            }
+
+            alert(`Bienvenido ${nombre} ${apellido}, te vas a matricular de ASIR.`);
+        }
+    </script>
+    <title>ASIR</title>
+</head>
+<body>
+
+        <h1>IES El Grao</h1>
+        
+        <form onsubmit="mostrarMensaje(event)">
+            <label for="fname">Nombre:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+    
+            <label for="lname">Apellido:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+    
+            <label for="birthyear">Año de nacimiento:</label>
+            <input type="date" id="birthyear" name="birthyear"><br><br>
+    
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+
+        <p class="titular">Web desarrollada por <span>Federico</span></p>
+
+</body>
+</html>
