@@ -1,0 +1,97 @@
+* {
+    background-color: beige;
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    text-decoration: underline purple;
+    border-color: black;
+}
+
+div.SMR {
+    background-color: pink;
+}
+
+a {
+    color: blue;
+}
+
+a.SMR {
+    font-size: 25px;
+    float: left;
+    margin-left: 30%;
+    background-color: pink;
+}
+
+div.DAM {
+    background-color: darkgray;
+}
+
+
+
+a.DAM {
+    font-size: 25px;
+    float: left;
+    margin-left: 45%;
+    background-color: darkgray;
+}
+
+div.ASIR {
+    background-color: lightblue;
+}
+
+
+
+a.ASIR {
+    font-size: 25px;
+    float: left;
+    margin-left: 60%;
+    background-color: lightblue;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+span {
+    color: red;
+    font-size: 20px;
+}
+
+p.titular {
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+}
+
+span {
+    color: red;
+    background-color: yellow;
+}
+
+label {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+}
+-----------------------------------------------------------------------------
+table {
+    width: 80%;
+    margin: 20px auto;
+
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.resaltado {
+    color: red;
+}
